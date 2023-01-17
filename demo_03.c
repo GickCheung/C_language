@@ -1,22 +1,22 @@
-//Title: Êı¾İµÄÀàĞÍÒÔ¼°²âÊÔ
+//Title: æ•°æ®çš„ç±»å‹ä»¥åŠæµ‹è¯•
 #include<stdio.h>
 int main()
 {
-	// char			×Ö·ûÊı¾İÀàĞÍ
-	// short		¶ÌÕûĞÍ
-	// int			ÕûĞÍ
-	// long			³¤ÕûĞÍ
-	// long long	¸ü³¤µÄÕûĞÍ
-	// float		µ¥¾«¶È¸¡µãĞÍ
-	// double		Ë«¾«¶È¸¡µãĞÍ
+	// char			å­—ç¬¦æ•°æ®ç±»å‹
+	// short		çŸ­æ•´å‹
+	// int			æ•´å‹
+	// long			é•¿æ•´å‹
+	// long long		æ›´é•¿çš„æ•´å‹
+	// float		å•ç²¾åº¦æµ®ç‚¹å‹
+	// double		åŒç²¾åº¦æµ®ç‚¹å‹
 
-	//sizeofÊÇÒ»¸ö²Ù×÷·û£¬¼ÆËãÀàĞÍ»òÕß±äÁ¿ËùÕ¼¿Õ¼äµÄ´óĞ¡
-	//ÒÔÏÂÊÇ¼ÆËã¸÷ÖÖÊı¾İÀàĞÍµÄ´óĞ¡´úÂë
+	//sizeofæ˜¯ä¸€ä¸ªæ“ä½œç¬¦ï¼Œè®¡ç®—ç±»å‹æˆ–è€…å˜é‡æ‰€å ç©ºé—´çš„å¤§å°
+	//ä»¥ä¸‹æ˜¯è®¡ç®—å„ç§æ•°æ®ç±»å‹çš„å¤§å°ä»£ç 
 	printf("%d\n", sizeof(char)); 
 	printf("%d\n", sizeof(short));
 	printf("%d\n", sizeof(int));
 	printf("%d\n", sizeof(long));
-	//intºÍlong½á¹û¶¼ÊÇ4£¬ÔÚCÓïÑÔ±ê×¼ÖĞ£¬sizeof(long)>=sizeof(int),µ÷ÊÔÏÔÊ¾µÄ½á¹ûÊÇ=
+	//intå’Œlongç»“æœéƒ½æ˜¯4ï¼Œåœ¨Cè¯­è¨€æ ‡å‡†ä¸­ï¼Œsizeof(long)>=sizeof(int),è°ƒè¯•æ˜¾ç¤ºçš„ç»“æœæ˜¯=
 	printf("%d\n", sizeof(long long));
 	printf("%d\n", sizeof(float));
 	printf("%d\n", sizeof(double));
